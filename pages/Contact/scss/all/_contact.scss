@@ -1,0 +1,38 @@
+#contact {
+    background: #E5F5FF;
+
+    .list {
+        background: #E5F5FF;
+        display: flex;
+        padding-top: 23px;
+        padding-bottom: 27px;
+        gap: 18px;
+
+        &__tittle {
+
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            &--item {
+                color: #0000B2;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 125%;
+
+                &:hover{
+                    cursor: pointer;
+                }
+
+                &-svg{
+                    svg:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
