@@ -1,0 +1,48 @@
+#hamyon{
+    margin-top: 88px;
+}
+
+.hamyon-wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 168px;
+
+    .hamyon-box1{
+        h3{
+            color: #00008C;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            width: 569px;
+            line-height: 120%; /* 60px */
+            margin-bottom: 16px;
+        }
+
+        p{
+            width: 485px;
+            color: #636376;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 167%; /* 26.72px */
+            margin-bottom: 68px;
+        }
+
+        button{
+            color: #FFF;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 139.5%; /* 25.11px */
+            padding: 35px 93px;
+            border-radius: 100px;
+            background: #00008C;
+            border: none;
+        }
+    }
+
+    .hamyon-box2{
+        padding-right: 28px;  
+    }
+}
