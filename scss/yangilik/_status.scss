@@ -1,0 +1,66 @@
+.status{
+    margin-bottom: 200px;
+    p{
+        color: #003;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 125%; /* 30px */
+        margin-bottom: 50px;
+    }
+
+    .status-card{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        div{
+            div{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #1694CA;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 125%; /* 20px */
+            }
+
+            h3{
+                color: #003;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 125%; /* 40px */
+                margin-bottom: 30px;
+                margin-top: 25px;
+            }
+
+            p{
+                color: #006;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                margin-bottom: 10px;
+                line-height: 125%; /* 20px */        
+            }            
+        }
+
+        .logo-status{
+            width: 165px;
+            height: 165px;
+            flex-shrink: 0;
+            background-color: #379eca;
+            backdrop-filter: blur(33px);
+            border-radius: 100%;
+            text-align: center;
+            
+            h3{
+                color: rgb(8, 8, 87);
+                margin-top: 60px;
+            }
+        }
+    }
+
+
+}

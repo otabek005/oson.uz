@@ -1,0 +1,37 @@
+#intro{
+    background: #0000B2;
+    margin-bottom: 178px;
+}
+
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    
+    .intro-left{
+        h2{
+            width: 681px;
+            color: #FFF;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%; /* 80px */
+            margin-top: 121px;
+            margin-bottom: 20px;
+        }
+
+        p{
+            width: 319px;
+            color: rgba(241, 248, 251, 0.80);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 125%; /* 22.5px */
+            margin-bottom: 304px;
+        }
+    }
+
+    .intro-right{
+        margin-top: 45px;
+    }
+}
