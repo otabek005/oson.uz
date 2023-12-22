@@ -1,0 +1,29 @@
+#oferna {
+    margin-top: 157px;
+    margin-bottom: 350px;
+
+    .oferna__wrapper {
+        &-tittle {
+            color: #00004D;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%;
+            margin-bottom: 50px;
+        }
+
+        &--list {
+            &-link {
+                color: #00008C;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 125%;
+                margin-bottom: 30px;
+                display: block;
+            }
+        }
+    }
+}
