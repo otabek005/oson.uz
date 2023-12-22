@@ -1787,4 +1787,116 @@ footer .finish p {
   position: absolute;
   top: 43px;
   left: 200px;
+}
+
+#contact {
+  background: #E5F5FF;
+}
+#contact .list {
+  background: #E5F5FF;
+  display: flex;
+  padding-top: 23px;
+  padding-bottom: 27px;
+  gap: 18px;
+}
+#contact .list__tittle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+#contact .list__tittle--item {
+  color: #0000B2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+#contact .list__tittle--item:hover {
+  cursor: pointer;
+}
+#contact .list__tittle--item-svg svg:hover {
+  cursor: pointer;
+}
+
+#tariflar {
+  margin-top: 100px;
+}
+#tariflar .tariflar__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#tariflar .tariflar__wrapper--left {
+  max-width: 300px;
+  height: 329px;
+  border-radius: 10px;
+  background: #F5F5F5;
+}
+#tariflar .tariflar__wrapper--left--items {
+  padding-top: 44px;
+  padding-right: 153px;
+  padding-bottom: 190px;
+  padding-left: 42px;
+  transition: all 0.2s ease;
+}
+#tariflar .tariflar__wrapper--left--items-link {
+  color: #0000B2;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 125%;
+  display: block;
+  margin-bottom: 10px;
+}
+#tariflar .tariflar__wrapper--left--items-link:hover {
+  color: #00004D;
+}
+#tariflar .tariflar__wrapper--right-btn {
+  padding: 11px 25px;
+  align-items: flex-start;
+  border-radius: 15px;
+  background: #4DBBFF;
+  border: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 125%;
+  margin-bottom: 40px;
+  transition: all 0.2s ease;
+}
+#tariflar .tariflar__wrapper--right-btn:hover {
+  background: #30a0e6;
+  cursor: pointer;
+}
+#tariflar .tariflar__wrapper--right-tittle {
+  color: #00008C;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 125%;
+  margin-bottom: 15px;
+}
+
+#oferna {
+  margin-top: 157px;
+  margin-bottom: 350px;
+}
+#oferna .oferna__wrapper-tittle {
+  color: #00004D;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  margin-bottom: 50px;
+}
+#oferna .oferna__wrapper--list-link {
+  color: #00008C;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  margin-bottom: 30px;
+  display: block;
 }/*# sourceMappingURL=style.css.map */
