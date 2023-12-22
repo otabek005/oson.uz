@@ -1,0 +1,113 @@
+#registratsiya {
+    margin-bottom: 250px;
+    .reg__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &--left {
+            &-tittle {
+                width: 373px;
+                color: #00008C;
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 27px;
+            }
+
+            &-label {
+                color: #00008C;
+                font-family: Poppins;
+                font-size: 13px;
+                font-weight: 500;
+                display: block;
+                padding: 4px 10px;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+            &-input {
+                width: 391px;
+                height: 60px;
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 140, 0.09);
+                background: #FBFBFE;
+                margin-bottom: 20px;
+                display: block;
+            }
+
+            &-btn {
+                padding: 18px 51px;
+                border-radius: 79px;
+                border: 1px solid #00008C;
+                background: #F6F6FE;
+                color: #191997;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 47px;
+                margin-right: 20px;
+                transition: all 0.2s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #191997;
+                    color: #fff;
+                }
+            }
+
+            &-btn2 {
+                padding: 18px 33px;
+                border-radius: 79px;
+                border: 1px solid #00008C;
+                background: #F6F6FE;
+                color: #191997;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 47px;
+                transition: all 0.2s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #191997;
+                    color: #fff;
+                }
+            }
+        }
+
+        &--right {
+
+            &-area {
+                width: 566px;
+                height: 162px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 140, 0.10);
+                background: #FAFAFE;
+            }
+
+            &-btn{
+
+                padding: 18px 65px;
+                border-radius: 79px;
+                border: 1px solid #00008C;
+                background: #F6F6FE;
+                color: #191997;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 61px;
+                transition: all 0.2s ease;
+                display: block;
+                margin-left: 366px;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #191997;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
