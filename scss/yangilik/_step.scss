@@ -1,0 +1,28 @@
+.step-wrapper{
+    margin-bottom: 400px;
+    li{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin-bottom: 80px;
+
+        h1{
+            color: #FFF;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding: 10px 24px;
+            border-radius: 16px;
+            background: #00C;   
+        }
+
+        h4{
+            color: #00004D;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}

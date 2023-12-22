@@ -1,0 +1,72 @@
+.hamyon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+
+    .hamyon-box{
+        width: 447px;
+        padding: 27px 0 0 47px;
+        border-radius: 10px;
+        background: #F5F5F5;
+        p{
+            color: #0A435C;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 125%; /* 20px */
+            margin-bottom: 40px;
+        }
+
+       .hamyon-card{
+        margin: 0 auto;
+        width: 134px;
+        height: 134px;
+        flex-shrink: 0;
+        background-color:#00C4FA;;
+        border-radius: 100%;
+        margin-bottom: 40px;
+        position: relative;
+
+        img{
+            top: 35px;
+            position: absolute;
+            left: 20px;
+        }
+       }
+
+       h4{
+        color: #006;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 30px;
+        line-height: 125%; /* 25px */
+       }
+
+       .hamyon-box2{
+            display: flex;
+            gap: 50px;
+            margin-bottom: 150px;
+
+            div{
+                
+                p{
+                    margin: 14px;
+                }
+
+                h4{
+                    color: #006;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 125%; /* 30px */
+
+                    span{
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+            }
+       }
+    }
+}

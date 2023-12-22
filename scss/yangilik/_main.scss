@@ -1,0 +1,23 @@
+#news{
+    background-color: #E5F5FF;
+}
+
+.new-nav{
+    display: flex;
+    gap: 25px;
+    padding: 24px 0;
+    li{
+        display: flex;
+        gap: 15px;
+            color: #0000B2;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 125%; /* 20px */
+    }
+}
+
+@import "./intro";
+@import "./hamyon";
+@import "./status";
+@import "./step";
