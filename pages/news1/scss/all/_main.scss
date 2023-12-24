@@ -1,0 +1,382 @@
+// <----------------section 1 start--------------->
+#section1 {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #99d8ff;
+  background: #e5f5ff;
+  margin: 0 auto;
+
+  .bluediv {
+    padding: 20px;
+  }
+}
+// <----------------section 1 end--------------->
+
+// <----------------section 2 start--------------->
+.divsection2 {
+  top: 50px;
+  display: flex;
+  gap: 33px;
+  padding: 33px;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 10px;
+  //   border: 1px solid rgba(203, 203, 235, 0.34);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(70px);
+
+  .divsection2left {
+    z-index: 2;
+  }
+  .divsection2right {
+    padding-top: 26px;
+
+    h2 {
+      color: #00008c;
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 125%;
+      color: #00008c;
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 125%;
+      //   width: 439px;
+      padding-bottom: 15px;
+    }
+    p {
+      color: #86889f;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+      width: 489px;
+      padding-bottom: 101px;
+    }
+    button {
+      border-radius: 45px;
+      background: #007ecc;
+      display: inline-flex;
+      height: 40px;
+      padding: 6px 30px;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-shrink: 0;
+      border: none;
+      color: white;
+    }
+  }
+  p {
+    color: rgba(0, 0, 140, 0.56);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    min-width: 100px;
+    padding-top: 26px;
+    right: 0px;
+  }
+  .image1 {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    z-index: 1;
+  }
+
+  .image2 {
+    position: absolute;
+    top: 51px;
+    left: 5px;
+  }
+}
+// <----------------section 2 end--------------->
+
+// <----------------section 3 start--------------->
+#section3 {
+  margin-top: 149px;
+  h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    margin-left: 40px;
+  }
+  .container {
+    .divsection3 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      .divsection3_1 {
+        position: relative;
+        border-radius: 10px;
+        border: 2px solid rgba(203, 203, 235, 0.45);
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(150px);
+        width: 447px;
+        height: 600px;
+        flex-shrink: 0;
+
+        .img_span {
+          width: 445px;
+          height: 300px;
+          flex-shrink: 0;
+        }
+
+        .kalso {
+          position: absolute;
+          left: 10px;
+          top: 246px;
+        }
+
+        .p-1 {
+          color: rgba(0, 0, 140, 0.56);
+          font-family: Poppins;
+          font-size: 12px;
+          font-style: normal;
+          margin-top: 20px;
+          line-height: 125%;
+          padding-left: 350px;
+          min-width: 450px;
+        }
+
+        h2 {
+          color: #00008c;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          margin-top: 20px;
+          line-height: 125%;
+          width: 348px;
+          // padding-left: 40px;
+        }
+        p {
+          color: #86889f;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px;
+          width: 348px;
+          margin-top: 20px;
+          padding-left: 40px;
+        }
+        .span_button {
+          padding-left: 40px;
+          button {
+            margin-top: 20px;
+            border-radius: 45px;
+            background: #007ecc;
+            display: inline-flex;
+            height: 40px;
+            padding: 6px 30px;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-shrink: 0;
+            border: none;
+            color: white;
+          }
+        }
+      }
+      .divsection3_2 {
+        border-radius: 10px;
+        border: 2px solid rgba(203, 203, 235, 0.45);
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(150px);
+        width: 447px;
+        height: 600px;
+        flex-shrink: 0;
+        position: relative;
+
+        .img_span {
+          width: 445px;
+          height: 300px;
+          flex-shrink: 0;
+        }
+        .kalso {
+          position: absolute;
+          left: 10px;
+          top: 246px;
+        }
+        .p-1 {
+          color: rgba(0, 0, 140, 0.56);
+          font-family: Poppins;
+          font-size: 12px;
+          font-style: normal;
+          margin-top: 20px;
+          line-height: 125%;
+          padding-left: 350px;
+          min-width: 450px;
+        }
+
+        h2 {
+          color: #00008c;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          margin-top: 20px;
+          line-height: 125%;
+          width: 348px;
+          // padding-left: 40px;
+        }
+        p {
+          color: #86889f;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px;
+          width: 348px;
+          margin-top: 20px;
+          padding-left: 40px;
+        }
+        .span_button {
+          padding-left: 40px;
+          button {
+            margin-top: 20px;
+            border-radius: 45px;
+            background: #007ecc;
+            display: inline-flex;
+            height: 40px;
+            padding: 6px 30px;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-shrink: 0;
+            border: none;
+            color: white;
+          }
+        }
+      }
+      .divsection3_3 {
+        border-radius: 10px;
+        border: 2px solid rgba(203, 203, 235, 0.45);
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(150px);
+        width: 447px;
+        height: 600px;
+        flex-shrink: 0;
+
+        .p-1 {
+          color: rgba(0, 0, 140, 0.56);
+          font-family: Poppins;
+          font-size: 12px;
+          font-style: normal;
+          margin-top: 20px;
+          line-height: 125%;
+          padding-left: 350px;
+          min-width: 450px;
+        }
+        .img_span3_3 {
+          width: 445px;
+          height: 300px;
+          flex-shrink: 0;
+        }
+
+        h2 {
+          color: #00008c;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          margin-top: 20px;
+          line-height: 125%;
+          width: 348px;
+          // padding-left: 40px;
+        }
+        p {
+          color: #86889f;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px;
+          width: 348px;
+          margin-top: 20px;
+          padding-left: 40px;
+          margin-bottom: 22px;
+        }
+        .span_button {
+          padding-left: 40px;
+          button {
+            margin-top: 20px;
+            border-radius: 45px;
+            background: #007ecc;
+            display: inline-flex;
+            height: 40px;
+            padding: 6px 30px;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-shrink: 0;
+            border: none;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+// <----------------section 3 end--------------->
+
+// <----------------section 4 end--------------->
+#section4 {
+  .container {
+    .img_div {
+      position: relative;
+      margin-top: 200px;
+      .img_1 {
+        position: absolute;
+        top: -10px;
+        left: 85px;
+      }
+      .img_2 {
+        position: absolute;
+        top: 45px;
+        left: 100px;
+      }
+      .img_3 {
+        position: absolute;
+        top: 55px;
+        left: 45px;
+      }
+      .img_4 {
+        position: absolute;
+        left: 50px;
+        p {
+          color: #009;
+          font-family: Poppins;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 125%;
+          position: absolute;
+          top: 43px;
+          left: 25px;
+        }
+      }
+      h3 {
+        color: #009;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125%;
+        position: absolute;
+        top: 43px;
+        left: 200px;
+      }
+    }
+  }
+}
+// <----------------section 4 end--------------->
